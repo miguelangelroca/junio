@@ -1,0 +1,17 @@
+<colegio>
+    <grupos>
+        <grupo nivel="1">
+            <alumno mat="X48" edad="6">
+                <nombre>Ana Ruiz</nombre>
+            </alumno>
+            <alumno mat="V33" edad="6">
+                <nombre>Rosa P&#233;rez</nombre>
+            </alumno>
+        </grupo>
+        <grupo nivel="3">
+            <alumno mat="J29" edad="8">
+                <nombre>Antonio Garc&#237;a</nombre>
+            </alumno>
+        </grupo>
+    </grupos>
+</colegio>
