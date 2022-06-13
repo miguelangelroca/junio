@@ -16,7 +16,7 @@ def cita():
 
     ET.SubElement(socio_selec, 'cita', {'medico': medico_selec.get('id')})
 
-    arbol.write('prueba.xml')
+    arbol.write('resultadoclinica.xml')
     return arbol
 
 

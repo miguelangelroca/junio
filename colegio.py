@@ -18,7 +18,8 @@ def colegio(arbol):
             grupo = ET.SubElement(grupos, 'grupo', {'nivel': str(edad - 5)})
             grupo.append(alumno)
     raiz.remove(raiz.find('alumnos'))
-    arbol.write('resultadocolegio.xml')  # return arbol
+    arbol.write('resultadocolegio.xml')
+    return arbol
 
 
 colegio(arbol)
